@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0b1020;
+    color: #e5e7eb;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+}
+
+.logo span {
+    color: #fbbf24;
+}
+
+.nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #cbd5f5;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.hero-left h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.hero-left span {
+    color: #fbbf24;
+}
+
+.hero-left p {
+    margin: 20px 0;
+    color: #cbd5f5;
+}
+
+.btn {
+    padding: 12px 28px;
+    background: #fbbf24;
+    color: #0b1020;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.hero-right img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.stats h2 {
+    color: #fbbf24;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    gap: 25px;
+    padding: 60px;
+}
+
+.card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.highlight {
+    background: #fbbf24;
+    color: #0b1020;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
+}
